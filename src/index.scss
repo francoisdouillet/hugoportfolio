@@ -1,0 +1,20 @@
+body {
+    margin:0;
+}
+
+.photos {
+    transition: all 1000ms;
+    &__group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        & img {
+            width: 80vw;
+            margin-bottom: 5%;
+        }
+    }
+}
