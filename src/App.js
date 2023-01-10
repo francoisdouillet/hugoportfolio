@@ -1,11 +1,9 @@
-import Photos from "./components/Photos";
+import Home from "./components/home";
 import './index.scss'
 
 function App() {
   return (
-    <div>
-    <Photos />
-    </div>
+    <Home />
   );
 }
 
