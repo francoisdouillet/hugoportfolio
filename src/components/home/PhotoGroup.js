@@ -4,13 +4,13 @@ const PhotoGroup = ({ group, images, id }) => {
       <p>{group.toUpperCase()}</p>
       {images.map((image, i) => (
         <a
-          href={image}
-          data-pswp-width="6048px"
-          data-pswp-height="4008px"
+          href={image.src}
+          data-pswp-width={image.width}
+          data-pswp-height={image.height}
           target="_blank"
           rel="noreferrer"
         >
-          <img key={i} alt="hugophoto" src={image} />
+          <img key={i} alt="hugophoto" src={image.src} />
         </a>
       ))}
     </div>

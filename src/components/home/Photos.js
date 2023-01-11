@@ -74,57 +74,116 @@ const Photos = () => {
     {
       group: 'a',
       id: 'a',
-      images: [A1,A2,A3,A4]
+      images: [
+        { src: A1, width: '6048px', height: '4000px'},
+        { src: A2, width: '6048px', height: '4008px'},
+        { src: A3, width: '4000px', height: '6048px'},
+        { src: A4, width: '4000px', height: '6048px'},
+      ]
     },
     {
       group: 'b',
       id: 'b',
-      images: [B1,B2,B3,B4,B5]
+      images: [
+        { src: B1, width: '4592px', height: '3448px'},
+        { src: B2, width: '3130px', height: '2075px'},
+        { src: B3, width: '3448px', height: '4592px'},
+        { src: B4, width: '4592px', height: '3448px'},
+        { src: B5, width: '3130px', height: '2075px'},
+      ]
     },
     {
       group: 'c',
       id: 'c',
-      images: [C1,C2,C3,C4,C5,C6]
+      images: [
+        { src: C1, width: '3130px', height: '2075px'},
+        { src: C2, width: '2075px', height: '3120px'},
+        { src: C3, width: '2075px', height: '3120px'},
+        { src: C4, width: '3130px', height: '2075px'},
+        { src: C5, width: '3130px', height: '2075px'},
+        { src: C6, width: '3130px', height: '2075px'},
+      ]
     },
     {
       group: 'd',
       id: 'd',
-      images: [D1,D2,D3,D4,D5]
+      images: [
+        { src: D1, width: '3130px', height: '2075px'},
+        { src: D2, width: '3130px', height: '2075px'},
+        { src: D3, width: '3130px', height: '2075px'},
+        { src: D4, width: '1992px', height: '2831px'},
+        { src: D5, width: '4592px', height: '3448px'},
+      ]
     },
     {
       group: 'e',
       id: 'e',
-      images: [E1,E2,E3]
+      images: [
+        { src: E1, width: '6048px', height: '4000px'},
+        { src: E2, width: '6048px', height: '4008px'},
+        { src: E3, width: '2075px', height: '3120px'},
+
+      ]
     },
     {
       group: 'f',
       id: 'f',
-      images: [F1,F2,F3,F4,F5]
+      images: [
+        { src: F1, width: '2064px', height: '3130px'},
+        { src: F2, width: '2889px', height: '2035px'},
+        { src: F3, width: '2075px', height: '3120px'},
+        { src: F4, width: '2365px', height: '2075px'},
+        { src: F5, width: '3130px', height: '2075px'},
+      ]
     },
     {
       group: 'g',
       id: 'g',
-      images: [G1,G2,G3,G4,F5]
+      images: [
+        { src: G1, width: '1002px', height: '1504px'},
+        { src: G2, width: '3130px', height: '2075px'},
+        { src: G3, width: '3130px', height: '2075px'},
+        { src: G4, width: '3130px', height: '2075px'},
+      ]
     },
     {
       group: 'h',
       id: 'h',
-      images: [H1,H2]
+      images: [
+        { src: H1, width: '1535px', height: '2272px'},
+        { src: H2, width: '4000px', height: '6048px'},
+      ]
     },
     {
       group: 'i',
       id: 'i',
-      images: [I1,I2,I3]
+      images: [
+        { src: I1, width: '3130px', height: '2075px'},
+        { src: I2, width: '3130px', height: '2075px'},
+        { src: I3, width: '3130px', height: '2075px'},
+      ]
     },
     {
       group: 'j',
       id: 'j',
-      images: [J1,J2,J3,J4,J5,J6]
+      images: [
+        { src: J1, width: '5184px', height: '3456px'},
+        { src: J2, width: '4592px', height: '3448px'},
+        { src: J3, width: '4592px', height: '3448px'},
+        { src: J4, width: '2592px', height: '1728px'},
+        { src: J5, width: '3448px', height: '4592px'},
+        { src: J6, width: '3448px', height: '4592px'},
+      ]
     },
     {
       group: 'k',
       id: 'k',
-      images: [K1,K2,K3,K4]
+      images: [
+        { src: K1, width: '5184px', height: '3456px'},
+        { src: K2, width: '3232px', height: '2424px'},
+        { src: K3, width: '2592px', height: '1728px'},
+        { src: K4, width: '1228px', height: '1808px'},
+      ]
     },
   ]
 
